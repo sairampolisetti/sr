@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Personal Portfolio</title>
+    	<link rel="stylesheet" href="style.css">
+    	<script src="https://kit.fontawesome.com/0ff319aedc.js" crossorigin="anonymous"></script>
+	</head>
+<body>
+	<div id="header">
+    	<div class="container">
+        	<nav>
+            	<img src="images/logo.jpg" class="logo">
+            	<ul id="sidemenu">
+                	<li><a href="#header">Home</a></li>
+                	<li><a href="#about">About</a></li>
+                	<li><a href="#services">Services</a></li>
+                	<li><a href="#Portfolio">Portfolio</a></li>
+                	<li><a href="#Contact">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+            	</ul>
+				<i class="fas fa-bars"onclick="openmenu()"></i>
+        	</nav>
+        	<div class="header-text">
+            <p>FRONTEND DEVELOPER</p>
+            <h1>Hi, I'm <span>SAIRAM</span> <br>From INDIA</h1>
+        	</div>
+    	</div>
+	</div>
+<!----------about----------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="user">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I'm  P.A.V.G.SAIRAM ,a FRONT END DEVELOPER with a passion for WEB DESIGNER.
+					 Throughout my career,
+					 I  have  honed   my  skills  in HTML , CSS , JAVASCRIPT , JAVA.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p> 
+                        
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces<br></li>
+                            <li><span>Web Development</span><br>WebApp Development<br></li>
+                            <li><span>App Development</span><br>Building Android<br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br>JAVA <br></li>
+                            <li><span>2019</span><br>WebApp Development<br></li>
+                            <li><span>2016</span><br>Building Android<br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>SSC<br></li>
+                            <li><span>2020</span><br>Intermediate<br></li>
+                            <li><span>2024</span><br>B.Tech in ELECTRONICAL AND COMMUNICATION<br></li>
+                        </ul>
+                     </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-------------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> A good Web Design should be responsive. <br>
+					<br> " Design is not a Decoration . It's a Communication"<br>
+					<br>" Design is not just what it look like and feels .Design is how it works "
+				</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing digital product that are user friendly , Visually appealing.<br>
+				  <br>" A Good Design is Obvious . Great Design is Transparent ".</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>A well Designed app can help attract and retain users , increase engagement and ultimately lead  to a Successfull App.
+				<br><br>	" Design is a solution to a problem . Art is a question to a problem ."
+				</p>
+			    
+			   <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!----------------portfolio------------>
+<div id="Portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+					<h3>Social Media App</h3>
+					<p>The app connects you to the talented people around the world.
+						download it from the playstore.</p>
+					<a href="#"><i class="fas fa-external-link-alt"> </i></a>
+
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>Music App</h3>
+					<p>The app connects you to the talented people around the world.
+						download it from the playstore.</p>
+					<a href="#"><i class="fas fa-external-link-alt"> </i></a>
+
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-3.png">
+				<div class="layer">
+					<h3>Online shopping App</h3>
+					<p>The app connects you to the talented people around the world.
+						download it from the playstore.</p>
+					<a href="#"><i class="fas fa-external-link-alt"> </i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">see more</a>
+	</div>
+</div>
+<!----------------contact------------>
+<div id="Contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fas fa-paper-plane"></i>veerendrapolisetti2312@gmail.com</p>
+				<p><i class="fas fa-phone-square-alt"></i>8977188943</p>
+				<div class="social-icons">
+					<a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+					<a href=""><i class="fab fa-twitter-square"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/polisetti-a-v-g-sairam-2bb720243"><i class="fab fa-linkedin"></i></a>
+				</div>
+				<a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+			</div>	
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Full Name"required>
+					<input type="email" name="Email" placeholder="E-mail" required>
+					<textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2"> Submit </button>
+				</form>
+				
+			</div> 
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright @$AIRAM<i class="fas fa-heart"></i></p>
+	</div>
+</div>
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+
+	var sidemenu= document.getElementById("sidemenu")
+
+	function openmenu(){
+		sidemenu.style.right="0";
+
+	}
+	function closemenu(){
+		sidemenu.style.right="-200px";
+		
+	}
+</script>
+<script>
+	const scriptURL = '<https://script.google.com/macros/s/AKfycbxSV0vW0OIz0PyzsJDH-2Aln1di5xxYDuHE5nhizGYN_oRglljFimffl1HK6Vmh1plK/exec>'
+	const form = document.forms['submit-to-google-sheet']
+  
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then(response => {
+			msg.inneerHTML="Message sent successfully"
+			serTimeout(function(){
+			msg.innerHTML =""
+		},5000)
+		form.reset()
+		.catch(error => console.error('Error!', error.message))
+	})
+  </script>
+    
+</body>
+</html>
